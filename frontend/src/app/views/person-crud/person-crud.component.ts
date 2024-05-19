@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router'
 @Component({
   selector: 'app-person-crud',
   templateUrl: './person-crud.component.html',
   styleUrl: './person-crud.component.sass'
 })
-export class PersonCrudComponent {
+export class PersonCrudComponent implements OnInit {
 
+  constructor(private router: Router) {
+
+  }
+
+  ngOnInit(): void {
+  }
+
+  navigateToPersonCreate(): void {
+    this.router.navigate(['/people/create'])
+  }
 }
