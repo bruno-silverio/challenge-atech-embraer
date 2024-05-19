@@ -1,0 +1,22 @@
+{
+  "person": [
+    {
+      "id": "2f07",
+      "name": "Bruno",
+      "email": "teste@gmail.com",
+      "phone": "19998765432"
+    },
+    {
+      "id": "5f31",
+      "name": "Ricardo Lopez",
+      "email": "ricardo@gmail.com",
+      "phone": "19994769432"
+    },
+    {
+      "id": "c91e",
+      "name": "Marcelo Gustavo",
+      "email": "marcelo@outlook.com.br",
+      "phone": "19998761234"
+    }
+  ]
+}
