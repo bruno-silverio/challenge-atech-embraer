@@ -15,13 +15,15 @@ import { MatCardModule } from  '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { PersonCrudComponent } from './views/person-crud/person-crud.component';
+import { PersonCreateComponent } from './components/person/person-create/person-create.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavComponent,
     HomeComponent,
-    PersonCrudComponent
+    PersonCrudComponent,
+    PersonCreateComponent
   ],
   imports: [
     BrowserModule,
