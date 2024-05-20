@@ -7,7 +7,7 @@ import { Person } from '../person.model';
 @Component({
   selector: 'app-person-create',
   templateUrl: './person-create.component.html',
-  styleUrl: './person-create.component.sass'
+  styleUrl: './person-create.component.css'
 })
 export class PersonCreateComponent implements OnInit {
   person: Person = {
