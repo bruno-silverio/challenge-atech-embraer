@@ -1,5 +1,5 @@
 {
-  "person": [
+  "people": [
     {
       "id": "2f07",
       "name": "Bruno",
@@ -17,6 +17,12 @@
       "name": "Marcelo Gustavo",
       "email": "marcelo@outlook.com.br",
       "phone": "19998761234"
+    },
+    {
+      "id": "905d",
+      "name": "Andressa",
+      "email": "and@hotmail.com",
+      "phone": null
     }
   ]
 }
