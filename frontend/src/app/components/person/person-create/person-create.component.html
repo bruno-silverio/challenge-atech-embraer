@@ -1,1 +1,41 @@
-<p>person-create works!</p>
+<mat-card>
+  <mat-card-title>Novo Cadastro</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Name"
+        [(ngModel)]="person.name"
+        name="name"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Email"
+        [(ngModel)]="person.email"
+        name="email"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Phone"
+        [(ngModel)]="person.phone"
+        name="phone"
+      />
+    </mat-form-field>
+  </form>
+
+  <div id="container">
+    <div id="divleft">
+      <button id="btn-left" mat-raised-button (click)="createPerson()">
+        Save
+      </button>
+    </div>
+
+    <div id="divright">
+      <button mat-raised-button (click)="cancel()">Cancel</button>
+    </div>
+  </div>
+</mat-card>
