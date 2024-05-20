@@ -1,0 +1,43 @@
+<mat-card>
+  <mat-card-title>Atualizar Cadastro</mat-card-title>
+  <form>
+    <ng-container *ngIf="person">
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Name"
+          [(ngModel)]="person.name"
+          name="name"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Email"
+          [(ngModel)]="person.email"
+          name="email"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Phone"
+          [(ngModel)]="person.phone"
+          name="phone"
+        />
+      </mat-form-field>
+    </ng-container>
+  </form>
+
+  <div id="container">
+    <div id="divleft">
+      <button id="btn-left" mat-raised-button (click)="updatePerson()">
+        Save
+      </button>
+    </div>
+
+    <div id="divright">
+      <button mat-raised-button (click)="cancel()">Cancel</button>
+    </div>
+  </div>
+</mat-card>
