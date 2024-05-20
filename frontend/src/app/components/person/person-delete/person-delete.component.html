@@ -1,0 +1,46 @@
+<mat-card>
+  <mat-card-title>Excluir Pessoa</mat-card-title>
+  <form>
+    <ng-container *ngIf="person">
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Name"
+          [value]="person.name"
+          name="name"
+          disabled
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Email"
+          [value]="person.email"
+          name="email"
+          disabled
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Phone"
+          [value]="person.phone"
+          name="phone"
+          disabled
+        />
+      </mat-form-field>
+    </ng-container>
+  </form>
+
+  <div id="container">
+    <div id="divleft">
+      <button id="btn-left" mat-raised-button (click)="deletePerson()">
+        Excluir
+      </button>
+    </div>
+
+    <div id="divright">
+      <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </div>
+  </div>
+</mat-card>
