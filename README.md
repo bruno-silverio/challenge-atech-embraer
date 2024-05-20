@@ -31,11 +31,13 @@ How to run
 
 ./frontend >
 ```bash 
-  ng serve
+   > ng serve
+  ➜  Local:   http://localhost:4200/
 ```
 ./backend >
 ```bash 
-   npm start
+   > npm start
+   ➜ Endpoints: http://localhost:3001/people
 ```
 
 > This is a challenge by [Atech](https://atech.com.br/) 
