@@ -39,6 +39,7 @@ How to run
    > npm start
    ➜ Endpoints: http://localhost:3001/people
 ```
+Após iniciar as aplicações frontend e backend, basta acessar 'localhost' na porta 4200 para ser direcionado à aplicação Angular e realizar os devidos testes.
 
 > This is a challenge by [Atech](https://atech.com.br/) 
 
