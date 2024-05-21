@@ -27,7 +27,7 @@ export class PersonDeleteComponent implements OnInit {
 
   deletePerson(): void {
     this.personService.delete(this.person.id!).subscribe(() => {
-      this.personService.showMessage("Pessoa excluida com sucesso!");
+      this.personService.showMessage("Cadastro excluida com sucesso!");
       this.router.navigate(["/people"]);
     });
   }
