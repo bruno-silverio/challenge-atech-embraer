@@ -41,6 +41,13 @@ How to run
 ```
 Após iniciar as aplicações frontend e backend, basta acessar 'localhost' na porta 4200 para ser direcionado à aplicação Angular e realizar os devidos testes.
 
+#### Tela inicial temos o botão 'Início' e 'Pessoas'
+![image](https://github.com/bruno-silverio/challenge-atech-embraer/assets/27282770/a97658bb-9819-4b9f-bcc1-1fa4d358690e)
+
+
+#### Tela após clicar no botão 'Pessoas', é possivel cadastrar uma nova pessoa, atualizar cadastro, excluir cadastro e visualizar pessoas cadastradas.
+![image](https://github.com/bruno-silverio/challenge-atech-embraer/assets/27282770/81cb8b1d-b0ad-4f9c-b493-aeb828925797)
+
 > This is a challenge by [Atech](https://atech.com.br/) 
 
 ##
